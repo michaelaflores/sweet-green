@@ -1,0 +1,19 @@
+.card {
+  &-container {
+    height: 250px;
+    width: 250px;
+
+    &--spade {
+      @extend .card-container;
+      // background-color: red;
+    }
+  }
+
+  &-suit {
+
+  }
+
+  &-value {
+
+  }
+}
